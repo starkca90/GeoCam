@@ -6,5 +6,11 @@
 
     <string name="but_take">Take Picture</string>
     <string name="but_upld">Upload Picture</string>
+    
+    <string name="tv_login">Login</string>
+    <string name="tv_uname">Enter Username</string>
+    <string name="tv_pass">Enter Password</string>
+    <string name="but_login">Login</string>
+    <string name="chk_remember">Remember Me</string>
 
 </resources>

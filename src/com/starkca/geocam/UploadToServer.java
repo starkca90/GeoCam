@@ -58,7 +58,7 @@ public class UploadToServer extends AsyncTask<String, Void, Integer> {
 				dos = new DataOutputStream(conn.getOutputStream());
 
 				dos.writeBytes(twoHyphens + boundary + lineEnd);
-				dos.writeBytes("Content-Disposition: form-data; name=\"uploaded_file\";filename=\""
+				dos.writeBytes("Content-Disposition: form-data; name=\"photo\";filename=\""
 						+ sourceFileUri + "\"" + lineEnd);
 
 				dos.writeBytes(lineEnd);

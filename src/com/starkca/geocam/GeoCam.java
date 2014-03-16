@@ -98,7 +98,7 @@ public class GeoCam extends ActionBarActivity {
                 // TODO: Upload Picture
                 Toast.makeText(getBaseContext(), "Uploading Picture", Toast.LENGTH_SHORT).show();
                 if(fileUri != null) {
-                	new UploadToServer().execute(fileUri.getPath(), "http://www.caseystark.com/media/uploadImage.php");
+                	new UploadToServer().execute(fileUri.getPath(), "http://picture.jessestark.com/pictures/");
                 	
                 	// Do stuff
                 }
@@ -144,10 +144,7 @@ public class GeoCam extends ActionBarActivity {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -162,7 +159,8 @@ public class GeoCam extends ActionBarActivity {
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_geo_cam, container, false);
+//            View rootView = inflater.inflate(R.layout.fragment_geo_cam, container, false);
+        	View rootView = inflater.inflate(R.layout.fragment_webview, container, false);
             return rootView;
         }
     }
