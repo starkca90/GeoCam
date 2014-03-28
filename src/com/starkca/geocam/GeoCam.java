@@ -98,7 +98,7 @@ public class GeoCam extends ActionBarActivity {
                 // TODO: Upload Picture
                 Toast.makeText(getBaseContext(), "Uploading Picture", Toast.LENGTH_SHORT).show();
                 if(fileUri != null) {
-                	new UploadToServer().execute(fileUri.getPath(), "http://picture.jessestark.com/pictures/");
+                	new UploadToServer().execute(fileUri.getPath(), "http://picture.jessestark.com/pictures/upload_media");
                 	
                 	// Do stuff
                 }

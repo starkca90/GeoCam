@@ -9,6 +9,10 @@ public class ActivityLogin extends ActionBarActivity implements FragmentLogin.On
 
 	private final String TAG = ActivityLogin.class.getCanonicalName();
 	
+	private final String URL = "http://picture.jessestark.com";
+	private final String URL_ARGUMENTS = "/token_login?";
+	private final String ACCESS_TOKEN = "access_token=";
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		Log.i(TAG, "onCreate");
@@ -18,8 +22,9 @@ public class ActivityLogin extends ActionBarActivity implements FragmentLogin.On
 	}
 
 	@Override
-	public void onLoginSuccess(String url) {
+	public void onLoginSuccess() {
 		FragmentWebview fragment = (FragmentWebview) getSupportFragmentManager().findFragmentById(R.id.wvFrag);
+		String url = URL + URL_ARGUMENTS + ACCESS_TOKEN + ApplicationController.getInstance().getAccessToken();
 		if(fragment != null && fragment.isInLayout()) {
 			fragment.updateURL(url);
 		} else {

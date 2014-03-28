@@ -13,7 +13,12 @@ public class ApplicationController extends Application {
 	private final String TAG = ApplicationController.class.getCanonicalName();
 	
 	private RequestQueue mRequestQueue;
+	private String access_token;
+	private String refresh_token;
 	private static ApplicationController sInstance;
+	
+	private final String CLIENT_ID = "mOuB5d3tKO0yu3v7uLWshcAVR5TSyIfxUSxPiWYY";
+	private final String CLIENT_SECRET = "eqI4xD6z3oJBeLJXyQlN2VWYcIhH021tKXUmxkSu";
 	
 	@Override public void onCreate() {
 		super.onCreate();
@@ -23,6 +28,30 @@ public class ApplicationController extends Application {
 	
 	public static synchronized ApplicationController getInstance() {
 		return sInstance;
+	}
+	
+	public void setAccessToken(String access_token) {
+		this.access_token = access_token;
+	}
+	
+	public String getAccessToken() {
+		return access_token;
+	}
+	
+	public void setRefreshToken(String refresh_token) {
+		this.refresh_token = refresh_token;
+	}
+	
+	public String getRefreshToken() {
+		return refresh_token;
+	}
+	
+	public String getClientID() {
+		return CLIENT_ID;
+	}
+	
+	public String getClientSecret() {
+		return CLIENT_SECRET;
 	}
 	
 	/**
