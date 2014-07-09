@@ -1,0 +1,241 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From GeoCam:
+* .gitattributes
+* .gitignore
+* AndroidStudio\
+* AndroidStudio\.idea\
+* AndroidStudio\.idea\.name
+* AndroidStudio\.idea\compiler.xml
+* AndroidStudio\.idea\copyright\
+* AndroidStudio\.idea\copyright\profiles_settings.xml
+* AndroidStudio\.idea\encodings.xml
+* AndroidStudio\.idea\misc.xml
+* AndroidStudio\.idea\modules.xml
+* AndroidStudio\.idea\scopes\
+* AndroidStudio\.idea\scopes\scope_settings.xml
+* AndroidStudio\.idea\vcs.xml
+* AndroidStudio\.idea\workspace.xml
+* AndroidStudio\build.gradle
+* AndroidStudio\geoCam\
+* AndroidStudio\geoCam\build.gradle
+* AndroidStudio\geoCam\lint.xml
+* AndroidStudio\geoCam\src\
+* AndroidStudio\geoCam\src\main\
+* AndroidStudio\geoCam\src\main\AndroidManifest.xml
+* AndroidStudio\geoCam\src\main\java\
+* AndroidStudio\geoCam\src\main\java\com\
+* AndroidStudio\geoCam\src\main\java\com\starkca\
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\ActivityLogin.java
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\ActivityWebview.java
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\ApplicationController.java
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\FragmentLogin.java
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\FragmentWebview.java
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\GeoCam.java
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\RetreiveServerResponse.java
+* AndroidStudio\geoCam\src\main\java\com\starkca\geocam\UploadToServer.java
+* AndroidStudio\geoCam\src\main\res\
+* AndroidStudio\geoCam\src\main\res\drawable-hdpi\
+* AndroidStudio\geoCam\src\main\res\drawable-hdpi\ic_launcher.png
+* AndroidStudio\geoCam\src\main\res\drawable-mdpi\
+* AndroidStudio\geoCam\src\main\res\drawable-mdpi\ic_launcher.png
+* AndroidStudio\geoCam\src\main\res\drawable-xhdpi\
+* AndroidStudio\geoCam\src\main\res\drawable-xhdpi\ic_launcher.png
+* AndroidStudio\geoCam\src\main\res\layout\
+* AndroidStudio\geoCam\src\main\res\layout\activity_geo_cam.xml
+* AndroidStudio\geoCam\src\main\res\layout\activity_login.xml
+* AndroidStudio\geoCam\src\main\res\layout\activity_webview.xml
+* AndroidStudio\geoCam\src\main\res\layout\fragment_geo_cam.xml
+* AndroidStudio\geoCam\src\main\res\layout\fragment_login.xml
+* AndroidStudio\geoCam\src\main\res\layout\fragment_webview.xml
+* AndroidStudio\geoCam\src\main\res\menu\
+* AndroidStudio\geoCam\src\main\res\menu\geo_cam.xml
+* AndroidStudio\geoCam\src\main\res\values\
+* AndroidStudio\geoCam\src\main\res\values\dimens.xml
+* AndroidStudio\geoCam\src\main\res\values\strings.xml
+* AndroidStudio\geoCam\src\main\res\values\styles.xml
+* AndroidStudio\gradle\
+* AndroidStudio\gradle\wrapper\
+* AndroidStudio\gradle\wrapper\gradle-wrapper.jar
+* AndroidStudio\gradle\wrapper\gradle-wrapper.properties
+* AndroidStudio\gradlew
+* AndroidStudio\gradlew.bat
+* AndroidStudio\local.properties
+* AndroidStudio\settings.gradle
+* AndroidStudio\volley\
+* AndroidStudio\volley\build.gradle
+* AndroidStudio\volley\src\
+* AndroidStudio\volley\src\androidTest\
+* AndroidStudio\volley\src\androidTest\java\
+* AndroidStudio\volley\src\androidTest\java\com\
+* AndroidStudio\volley\src\androidTest\java\com\android\
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\CacheDispatcherTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\NetworkDispatcherTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\RequestQueueTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\RequestTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\ResponseDeliveryTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\MockCache.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\MockHttpClient.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\MockHttpStack.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\MockHttpURLConnection.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\MockNetwork.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\MockRequest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\MockResponseDelivery.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\TestRequest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\mock\WaitableQueue.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\BasicNetworkTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\ByteArrayPoolTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\DiskBasedCacheTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\HttpClientStackTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\HttpHeaderParserTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\HurlStackTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\ImageRequestTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\NetworkImageViewTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\toolbox\PoolingByteArrayOutputStreamTest.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\utils\
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\utils\CacheTestUtils.java
+* AndroidStudio\volley\src\androidTest\java\com\android\volley\utils\ImmediateResponseDelivery.java
+* AndroidStudio\volley\src\androidTest\res\
+* AndroidStudio\volley\src\androidTest\res\raw\
+* AndroidStudio\volley\src\androidTest\res\raw\large_jpeg_1024_500.jpg
+* AndroidStudio\volley\src\main\
+* AndroidStudio\volley\src\main\AndroidManifest.xml
+* AndroidStudio\volley\src\main\java\
+* AndroidStudio\volley\src\main\java\com\
+* AndroidStudio\volley\src\main\java\com\android\
+* AndroidStudio\volley\src\main\java\com\android\volley\
+* AndroidStudio\volley\src\main\java\com\android\volley\AuthFailureError.java
+* AndroidStudio\volley\src\main\java\com\android\volley\Cache.java
+* AndroidStudio\volley\src\main\java\com\android\volley\CacheDispatcher.java
+* AndroidStudio\volley\src\main\java\com\android\volley\DefaultRetryPolicy.java
+* AndroidStudio\volley\src\main\java\com\android\volley\ExecutorDelivery.java
+* AndroidStudio\volley\src\main\java\com\android\volley\Network.java
+* AndroidStudio\volley\src\main\java\com\android\volley\NetworkDispatcher.java
+* AndroidStudio\volley\src\main\java\com\android\volley\NetworkError.java
+* AndroidStudio\volley\src\main\java\com\android\volley\NetworkResponse.java
+* AndroidStudio\volley\src\main\java\com\android\volley\NoConnectionError.java
+* AndroidStudio\volley\src\main\java\com\android\volley\ParseError.java
+* AndroidStudio\volley\src\main\java\com\android\volley\Request.java
+* AndroidStudio\volley\src\main\java\com\android\volley\RequestQueue.java
+* AndroidStudio\volley\src\main\java\com\android\volley\Response.java
+* AndroidStudio\volley\src\main\java\com\android\volley\ResponseDelivery.java
+* AndroidStudio\volley\src\main\java\com\android\volley\RetryPolicy.java
+* AndroidStudio\volley\src\main\java\com\android\volley\ServerError.java
+* AndroidStudio\volley\src\main\java\com\android\volley\TimeoutError.java
+* AndroidStudio\volley\src\main\java\com\android\volley\VolleyError.java
+* AndroidStudio\volley\src\main\java\com\android\volley\VolleyLog.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\AndroidAuthenticator.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\Authenticator.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\BasicNetwork.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\ByteArrayPool.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\ClearCacheRequest.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\DiskBasedCache.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\HttpClientStack.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\HttpHeaderParser.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\HttpStack.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\HurlStack.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\ImageLoader.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\ImageRequest.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\JsonArrayRequest.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\JsonObjectRequest.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\JsonRequest.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\NetworkImageView.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\NoCache.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\PoolingByteArrayOutputStream.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\RequestFuture.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\StringRequest.java
+* AndroidStudio\volley\src\main\java\com\android\volley\toolbox\Volley.java
+* README.md
+* proguard-project.txt
+From Volley:
+* .gitignore
+* Android.mk
+* build.gradle
+* build.xml
+* custom_rules.xml
+* proguard-project.txt
+* proguard.cfg
+* tests\
+* tests\.classpath
+* tests\.project
+* tests\Android.mk
+* tests\project.properties
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:+
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Volley:
+* AndroidManifest.xml => volley\src\main\AndroidManifest.xml
+* src\ => volley\src\main\java\
+* tests\res\ => volley\src\androidTest\res\
+* tests\src\ => volley\src\androidTest\java\
+In GeoCam:
+* AndroidManifest.xml => geoCam\src\main\AndroidManifest.xml
+* assets\ => geoCam\src\main\assets\
+* lint.xml => geoCam\lint.xml
+* res\ => geoCam\src\main\res\
+* src\ => geoCam\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

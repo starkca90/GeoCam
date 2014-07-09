@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Swapix</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="but_take">Take Picture</string>
+    <string name="but_upld">Upload Picture</string>
+    
+    <string name="tv_login">Login</string>
+    <string name="tv_uname">Enter Username</string>
+    <string name="tv_pass">Enter Password</string>
+    <string name="but_login">Login</string>
+    <string name="chk_remember">Remember Me</string>
+
+</resources>
